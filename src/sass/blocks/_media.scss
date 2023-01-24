@@ -16,6 +16,12 @@
             margin-bottom: 10px;
         }
     }
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+        
+    }
 
     .advantages {
         &__wrapper {
@@ -46,7 +52,6 @@
     }
     .feed-form{
         align-items:center;
-       
         
     }
     .button {
@@ -82,12 +87,14 @@
             margin-top: 20px;
             font-size: 20px;
         }
+
     }
     .consultation {
         &__descr{
             font-size: 17px;
              text-align: center;
         }
+        
     }
     .title {
         &_left {
@@ -95,4 +102,22 @@
             text-align: center;
         }
     }
+    .catalog{
+        &__tab {
+            line-height: 24px;
+        }
+    }
+    .feed {
+        &__item {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__subtitle {
+            margin-top: 35px;
+        }
+    }
+    .feed-form {
+            width: auto;
+        }
+    
 }
